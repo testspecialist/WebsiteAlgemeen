@@ -1,0 +1,22 @@
+---
+interface Props {
+  activeNav: string;
+}
+const { activeNav } = Astro.props;
+---
+
+<header>
+  <div class="logo-wrap">
+    <img src="/images/testspecialistnl-logo.png" alt="Testspecialist.nl logo">
+    <div class="logo-text">
+      <span>Testspecialist.nl</span>
+      <span>ondersteuning bij softwaretesten</span>
+    </div>
+  </div>
+  <nav>
+    <a href="/" class={activeNav === 'home' ? 'active' : ''}>Home</a>
+    <a href="/diensten" class={activeNav === 'diensten' ? 'active' : ''}>Diensten</a>
+    <a href="/team" class={activeNav === 'team' ? 'active' : ''}>Team</a>
+    <a href="/contact" class={activeNav === 'contact' ? 'active' : ''}>Contact</a>
+  </nav>
+</header>

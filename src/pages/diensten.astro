@@ -1,0 +1,162 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Diensten" description="Onze diensten: testmanagement, functioneel testen, testautomatisering en performancetesten." activeNav="diensten">
+
+<div class="hero">
+  <div class="hero-inner">
+    <p class="hero-eyebrow">Testspecialist.nl — Wat we doen</p>
+    <h1>Huur een testspecialist in</h1>
+    <p>Goede software begint bij goede kwaliteitsborging. Niet als sluitpost, maar als vast onderdeel van het proces.</p>
+  </div>
+</div>
+
+<main>
+
+  <div class="intro">
+    <p>Goede software begint bij goede kwaliteitsborging. Niet als sluitpost aan het einde van een sprint, maar als vast onderdeel van het proces. Wij helpen je daar concreet invulling aan te geven, van strategie tot uitvoering.</p>
+    <p>Of je nu iemand nodig hebt die de regie pakt, hands-on meewerkt in een team, of een specifiek onderdeel van je QA-aanpak versterkt: we passen ons aan aan wat jouw situatie vraagt.</p>
+  </div>
+
+  <p class="section-title">Wat we doen</p>
+
+  <div class="diensten-grid">
+
+    <div class="dienst-card">
+      <div class="dienst-header">
+        <div class="dienst-icon">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M9 5a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2m-6 9 2 2 4-4"/>
+          </svg>
+        </div>
+        <h2 class="dienst-title">Testmanagement en coördinatie</h2>
+      </div>
+      <p class="dienst-desc">Kwaliteit borgen begint bij structuur. We stellen teststrategie en masterplan op, sturen testteams aan en rapporteren helder richting stakeholders.</p>
+      <ul class="dienst-list">
+        <li>Teststrategie en masterplan</li>
+        <li>Aansturing van testteams (intern en extern)</li>
+        <li>Voortgangsrapportage en risicosignalering</li>
+        <li>Afstemming met projectmanagement, ontwikkeling en business</li>
+      </ul>
+    </div>
+
+    <div class="dienst-card">
+      <div class="dienst-header">
+        <div class="dienst-icon">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 12l2 2 4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"/>
+          </svg>
+        </div>
+        <h2 class="dienst-title">Functioneel testen</h2>
+      </div>
+      <p class="dienst-desc">We vertalen requirements en documentatie naar concrete testscenario's en voeren die uit. Van nieuwe functionaliteit tot migraties en releases.</p>
+      <ul class="dienst-list">
+        <li>Opstellen en uitvoeren van testscenario's</li>
+        <li>Ketenintegratie testen</li>
+        <li>Acceptatietesten (UAT) begeleiden of uitvoeren</li>
+        <li>Bevindingen vastleggen, opvolgen en hertesten</li>
+      </ul>
+    </div>
+
+    <div class="dienst-card">
+      <div class="dienst-header">
+        <div class="dienst-icon">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 0 0-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 0 0-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 0 0-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 0 0-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 0 0 1.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065zM15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+          </svg>
+        </div>
+        <h2 class="dienst-title">Testautomatisering</h2>
+      </div>
+      <p class="dienst-desc">Testautomatisering is geen doel op zich, maar een middel om kwaliteit schaalbaar te maken. We zetten een onderhoudbaar framework op en integreren het in je CI/CD-pipeline.</p>
+      <ul class="dienst-list">
+        <li>Framework-opzet in Cypress.io, Playwright, Robot Framework of anders</li>
+        <li>Schrijven en reviewen van geautomatiseerde tests</li>
+        <li>Integratie met pipelines (Azure DevOps, GitHub Actions)</li>
+        <li>Overdracht en kennisdeling met het team</li>
+      </ul>
+    </div>
+
+    <div class="dienst-card">
+      <div class="dienst-header">
+        <div class="dienst-icon">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+          </svg>
+        </div>
+        <h2 class="dienst-title">Performancetesten</h2>
+      </div>
+      <p class="dienst-desc">Hoe gedraagt jouw applicatie zich als het er écht op aankomt? We ontwerpen en voeren laad-, stress- en duurzaamheidstesten uit en geven concrete aanbevelingen.</p>
+      <ul class="dienst-list">
+        <li>Testontwerp en scenariobepaling</li>
+        <li>Uitvoering met JMeter, Gatling, k6 of vergelijkbare tooling</li>
+        <li>Analyse van resultaten en rapportage</li>
+        <li>Aanbevelingen voor optimalisatie</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <p class="section-title">Hoe het werkt</p>
+
+  <div class="hoe-box">
+    <p>We starten altijd met een kort gesprek om de situatie te begrijpen: wat speelt er, wat is er al, en wat is er nodig? Op basis daarvan stemmen we af welk profiel past en hoeveel inzet realistisch is. Dat kan een paar dagen zijn voor een specifiek vraagstuk, maar ook een langer traject.</p>
+    <p class="tarief-note">Tarieven op aanvraag.</p>
+  </div>
+
+  <div class="cta-box">
+    <div>
+      <h2>Neem contact op</h2>
+      <p>Stuur een mail of bel ons — we reageren binnen één werkdag.</p>
+    </div>
+    <div class="cta-buttons">
+      <a class="btn-primary" href="mailto:info@testmanager.nl">info@testmanager.nl</a>
+      <a class="btn-secondary" href="tel:+31702042704">+31 70 204 2704</a>
+    </div>
+  </div>
+
+</main>
+
+</Layout>
+
+<style>
+  .intro { max-width: 720px; margin-bottom: 3rem; }
+  .intro p { font-size: 16px; line-height: 1.75; color: var(--gray); margin-bottom: 1rem; }
+  .intro p:last-child { margin-bottom: 0; }
+
+  .diensten-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+    gap: 24px;
+    margin-bottom: 3.5rem;
+  }
+
+  .dienst-card { background: #fff; border-radius: 12px; border: 1px solid var(--border); padding: 1.75rem 2rem; }
+  .dienst-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; }
+  .dienst-icon { width: 48px; height: 48px; border-radius: 12px; background: var(--green-light); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .dienst-icon svg { width: 24px; height: 24px; fill: var(--green); }
+  .dienst-title { font-size: 18px; font-weight: 700; color: var(--dark); }
+  .dienst-desc { font-size: 14px; line-height: 1.7; color: var(--gray); margin-bottom: 1.25rem; }
+  .dienst-list { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+  .dienst-list li { font-size: 14px; color: var(--dark); display: flex; align-items: flex-start; gap: 8px; line-height: 1.5; }
+  .dienst-list li::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--green); flex-shrink: 0; margin-top: 6px; }
+
+  .hoe-box { background: #fff; border-radius: 12px; border: 1px solid var(--border); padding: 2rem 2.25rem; max-width: 720px; margin-bottom: 3rem; }
+  .hoe-box p { font-size: 15px; line-height: 1.75; color: var(--gray); margin-bottom: 0.75rem; }
+  .hoe-box p:last-child { margin-bottom: 0; }
+  .tarief-note { font-size: 14px; font-style: italic; color: #999; }
+
+  .cta-box { background: linear-gradient(135deg, #1d3a14 0%, #3a8c28 100%); border-radius: 12px; padding: 2.5rem; color: #fff; display: flex; align-items: center; justify-content: space-between; gap: 2rem; flex-wrap: wrap; }
+  .cta-box h2 { font-size: 22px; font-weight: 700; margin-bottom: 0.4rem; }
+  .cta-box p { font-size: 14px; opacity: 0.85; }
+  .cta-buttons { display: flex; gap: 12px; flex-shrink: 0; flex-wrap: wrap; }
+  .btn-primary { background: #fff; color: var(--green); font-weight: 600; font-size: 14px; padding: 0.65rem 1.25rem; border-radius: 8px; text-decoration: none; white-space: nowrap; transition: opacity 0.15s; }
+  .btn-primary:hover { opacity: 0.9; }
+  .btn-secondary { background: transparent; color: #fff; font-weight: 600; font-size: 14px; padding: 0.65rem 1.25rem; border-radius: 8px; border: 1.5px solid rgba(255,255,255,0.5); text-decoration: none; white-space: nowrap; }
+  .btn-secondary:hover { border-color: #fff; }
+
+  @media (max-width: 600px) {
+    .diensten-grid { grid-template-columns: 1fr; }
+    .cta-box { flex-direction: column; }
+  }
+</style>

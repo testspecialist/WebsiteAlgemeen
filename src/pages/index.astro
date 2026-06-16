@@ -1,0 +1,116 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Testspecialist.nl" description="Testspecialist.nl — professionele testspecialisten voor kwaliteitsborging van software." activeNav="home">
+
+<div class="hero">
+  <div class="hero-inner">
+    <p class="hero-eyebrow">Testspecialist.nl</p>
+    <h1>Ondersteuning bij softwaretesten</h1>
+    <p>Software die niet goed getest is, kost je vroeg of laat meer dan je lief is. Wij zorgen dat dat moment niet komt.</p>
+  </div>
+</div>
+
+<main>
+  <p class="section-title">Wat we voor je kunnen doen</p>
+
+  <div class="nav-cards">
+
+    <a class="nav-card" href="/diensten">
+      <div class="nav-card-icon">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M9 5a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2m-6 9 2 2 4-4"/>
+        </svg>
+      </div>
+      <h2>Diensten</h2>
+      <p>Van testmanagement en functioneel testen tot testautomatisering en performancetesten. We pakken het hele traject op.</p>
+      <span class="nav-card-link">Bekijk onze diensten →</span>
+    </a>
+
+    <a class="nav-card" href="/team">
+      <div class="nav-card-icon">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm14 10v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+        </svg>
+      </div>
+      <h2>Ons team</h2>
+      <p>Vijf ervaren testspecialisten, gecertificeerd in ISTQB, TMAP en PSM-1. Klaar om in jouw team te stappen.</p>
+      <span class="nav-card-link">Maak kennis met het team →</span>
+    </a>
+
+    <a class="nav-card" href="/contact">
+      <div class="nav-card-icon">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+        </svg>
+      </div>
+      <h2>Contact</h2>
+      <p>Benieuwd wat we voor jouw organisatie kunnen betekenen? Neem gerust contact op voor een vrijblijvend gesprek.</p>
+      <span class="nav-card-link">Neem contact op →</span>
+    </a>
+
+  </div>
+</main>
+
+</Layout>
+
+<style>
+  .nav-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+  }
+
+  .nav-card {
+    background: #fff;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    padding: 1.75rem 2rem;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .nav-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(58,140,40,0.12);
+  }
+
+  .nav-card-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    background: var(--green-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-card-icon svg {
+    width: 22px;
+    height: 22px;
+    fill: var(--green);
+  }
+
+  .nav-card h2 {
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--dark);
+  }
+
+  .nav-card p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--gray);
+    flex: 1;
+  }
+
+  .nav-card-link {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--green);
+  }
+</style>
