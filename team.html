@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Maak kennis met het team van Testspecialist.nl — ervaren testspecialisten voor kwaliteitsborging van software.">
+<title>Team — Testspecialist.nl</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  .hero-stats {
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 2rem;
+  }
+
+  .hero-stat strong {
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  .hero-stat span {
+    font-size: 13px;
+    opacity: 0.7;
+  }
+
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+
+  .card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(58,140,40,0.12);
+  }
+
+  .card-photo {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+  }
+
+  .card-avatar {
+    width: 100%;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--green);
+    background: var(--green-light);
+  }
+
+  .card-body {
+    padding: 1rem 1.1rem 1.1rem;
+  }
+
+  .card-name {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--dark);
+    margin-bottom: 2px;
+  }
+
+  .card-role {
+    font-size: 12px;
+    color: var(--gray);
+    margin-bottom: 0.85rem;
+  }
+
+  .card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--border);
+  }
+
+  .li-btn {
+    font-size: 12px;
+    color: #0077b5;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .li-btn svg {
+    width: 16px;
+    height: 16px;
+    fill: #0077b5;
+  }
+
+  .li-btn:hover { text-decoration: underline; }
+
+  .initials-badge {
+    font-size: 11px;
+    background: var(--green-light);
+    color: var(--green);
+    padding: 3px 8px;
+    border-radius: 99px;
+    font-weight: 600;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo-wrap">
+    <img src="images/testspecialistnl-logo.png" alt="Testspecialist.nl logo">
+    <div class="logo-text">
+      <span>Testspecialist.nl</span>
+      <span>ondersteuning bij softwaretesten</span>
+    </div>
+  </div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="diensten.html">Diensten</a>
+    <a href="team.html" class="active">Team</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <div class="hero-inner">
+    <p class="hero-eyebrow">Testspecialist.nl — Ons team</p>
+    <h1>Experts in softwaretesten</h1>
+    <p>Wij helpen organisaties met het borgen van softwarekwaliteit. Ons team bestaat uit ervaren testspecialisten die klaarstaan om te ondersteunen.</p>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <strong>5</strong>
+        <span>Testspecialisten</span>
+      </div>
+      <div class="hero-stat">
+        <strong>NL</strong>
+        <span>Gevestigd</span>
+      </div>
+      <div class="hero-stat">
+        <strong>100%</strong>
+        <span>Vakkennis</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<main>
+  <p class="section-title">Maak kennis met ons team</p>
+
+  <div class="team-grid">
+
+    <!-- Onno la Roi -->
+    <div class="card">
+      <img class="card-photo" src="images/onno-la-roi.png" alt="Onno la Roi">
+      <div class="card-body">
+        <p class="card-name">Onno la Roi</p>
+        <p class="card-role">Testspecialist</p>
+        <div class="card-footer">
+          <a class="li-btn" href="https://www.linkedin.com/in/onno-la-roi" target="_blank">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <span class="initials-badge">OLR</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Marco Picavet -->
+    <div class="card">
+      <img class="card-photo" src="images/marco-picavet.jpeg" alt="Marco Picavet">
+      <div class="card-body">
+        <p class="card-name">Marco Picavet</p>
+        <p class="card-role">Testspecialist</p>
+        <div class="card-footer">
+          <a class="li-btn" href="https://www.linkedin.com/in/marcopicavet" target="_blank">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <span class="initials-badge">MP</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stefan de Boeff -->
+    <div class="card">
+      <img class="card-photo" src="images/stefan-de-boeff.jpeg" alt="Stefan de Boeff">
+      <div class="card-body">
+        <p class="card-name">Stefan de Boeff</p>
+        <p class="card-role">Testspecialist</p>
+        <div class="card-footer">
+          <a class="li-btn" href="https://www.linkedin.com/in/stefandeboeff" target="_blank">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <span class="initials-badge">SdB</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Eric van den Brink -->
+    <div class="card">
+      <img class="card-photo" src="images/eric-van-den-brink.png" alt="Eric van den Brink">
+      <div class="card-body">
+        <p class="card-name">Eric van den Brink</p>
+        <p class="card-role">Testspecialist</p>
+        <div class="card-footer">
+          <a class="li-btn" href="https://www.linkedin.com/in/ericvandenbrink" target="_blank">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <span class="initials-badge">EvdB</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sergio Brondenstein -->
+    <div class="card">
+      <div class="card-avatar">SB</div>
+      <div class="card-body">
+        <p class="card-name">Sergio Brondenstein</p>
+        <p class="card-role">Testspecialist</p>
+        <div class="card-footer">
+          <a class="li-btn" href="https://www.linkedin.com/in/sergiobrondenstein" target="_blank">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <span class="initials-badge">SBr</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2026 <a href="https://www.testspecialist.nl">Testspecialist.nl</a> — ondersteuning bij softwaretesten</p>
+</footer>
+
+</body>
+</html>
